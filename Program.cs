@@ -4,9 +4,9 @@ using Microsoft.Owin.Hosting;
 namespace RestireCore
 {
 	class Program
-    {
-        static void Main(string[] args)
-        {
+	{
+		static void Main(string[] args)
+		{
 			var options = new StartOptions("http://localhost:8080/")
 			{
 				ServerFactory = "WinInsider.Owin.Host.SocketListener"
@@ -17,6 +17,6 @@ namespace RestireCore
 				Console.WriteLine("Hello World!");
 				Console.ReadLine();
 			}
-        }
-    }
+		}
+	}
 }
